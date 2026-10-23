@@ -42,8 +42,8 @@ pi install npm:pi-mouse-reassert
 
 ## 验证
 
-- 滚轮应滚动 transcript（每次 1–6 行，`Alt+滚轮` 一次 5 倍）
-- 或者运行仓库里的探针思路：单独发一次鼠标启用序列后，滚轮应产生 `ESC[<64;x;yM` / `ESC[<65;x;yM` 鼠标事件
+- 重启后滚轮应滚动 transcript（每次 1–6 行，`Alt+滚轮` 一次 5 倍）
+- 若仍无效：确认 `process.platform` 是 `win32`、没有设置 `PI_MOUSE_REASSERT=0`，并临时禁用其他扩展排查冲突
 
 ## 关闭
 
