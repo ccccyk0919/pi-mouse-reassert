@@ -1,0 +1,16 @@
+{
+  "name": "pi-mouse-reassert",
+  "version": "1.0.0",
+  "description": "Restore mouse-wheel scrolling in Pi's fullscreen TUI on Windows (ConPTY) by re-asserting mouse tracking after alt-screen startup",
+  "keywords": [
+    "pi-package",
+    "pi-extension",
+    "windows",
+    "conpty",
+    "mouse"
+  ],
+  "license": "MIT",
+  "peerDependencies": {
+    "@earendil-works/pi-coding-agent": "*"
+  }
+}
